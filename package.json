@@ -1,6 +1,6 @@
 {
   "name": "simple-mock-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Joe Hudson<joehud*at*gmail.com>",
   "description": "a static file server and mock json endopint server",
   "main": "./lib/simple-mock-server",
