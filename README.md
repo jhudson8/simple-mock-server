@@ -9,13 +9,13 @@ This is a standalone http server that can serve out standard file contents as we
 Installation
 -----------
 ```
-npm install -g static-mock-server
+npm install -g simple-mock-server
 ```
 
 
 Usage
 -----------
-The server will serve out files from the directory in which it was started (by typing ```static-mock-server```)
+The server will serve out files from the directory in which it was started (by typing ```simpl-mock-server```)
 
 If the URI path has no extension, a ```.json``` extension will be appended.  Any query parameters will be removed as well.
 
@@ -24,7 +24,7 @@ If the method is anything other than ```GET```, the method will be added as a su
 
 Options
 -----------
-```static-mock-server -h``` for help
+```simpl-mock-server -h``` for help
 
 * ***--silent***: Disable logging [false]
 * ***-p***: Port to use [8080]
