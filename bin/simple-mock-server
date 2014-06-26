@@ -13,8 +13,7 @@ if (argv.h || argv.help) {
     "options:",
     "  -s --silent        Disable logging [false]",
     "  -p                 Port to use [8080]",
-    "  -h --help          Print this list and exit",
-    "  --cors          Allow CORS [false].",
+    "  -h --help          Print this list and exit"
   ].join('\n'));
   process.exit();
 }
@@ -22,7 +21,7 @@ if (argv.h || argv.help) {
 var options = {
 	port: parseInt(process.env.PORT || argv.p || '8080', 10),
 	silent: !!(argv.s || argv.silent),
-	cors: argv.cors
+	cors: true
 };
 server.start(options);
 
