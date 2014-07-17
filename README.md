@@ -30,3 +30,13 @@ Options
 * ***-p***: Port to use [8080]
 * ***--cors***: Allow CORS [false]
 
+Status code and Headers
+-----------
+By default all responses (if the file exists) will return a 200 status code.  If you want to simulate error conditions or include additional headers, you can add a special meta object to ase the first line of the file (it must be on a single line) starting with ```*```.  The valid keys are ```code``` and ```headers```.
+
+For example
+```
+*{"code": 400}
+<response payload>
+```
+
