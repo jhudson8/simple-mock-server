@@ -2,7 +2,12 @@
 
 ## Development
 
-[Commits](https://github.com/jhudson8/simple-mock-server/compare/v0.2.0...master)
+[Commits](https://github.com/jhudson8/simple-mock-server/compare/v0.2.1...master)
+
+## v0.2.1 - July 23rd, 2014
+- change default status code - 93a0d9a
+
+[Commits](https://github.com/jhudson8/simple-mock-server/compare/v0.2.0...v0.2.1)
 
 ## v0.2.0 - July 17th, 2014
 - add ability to supply response meta data in the mock files - 49f4293
